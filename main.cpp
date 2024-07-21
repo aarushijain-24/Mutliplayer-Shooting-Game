@@ -112,7 +112,7 @@ void DrawSpaceshipBody1()
 	//Lights
 	glPushMatrix();
 	glScalef(8, 8, 1);
-	glTranslated(-20, 0, 0);			//1
+	glTranslated(-20, 0, 0);			        //1
 	glColor3fv(LightColor[(CI + 0) % 3]);
 	glutSolidSphere(1, 1000, 1000);
 	glTranslated(5, 0, 0);					//2
@@ -400,7 +400,7 @@ void DrawSpaceshipBody(bool isPlayer1)
 	//LIGHTS
 	glPushMatrix();							
 	glScalef(3, 3, 1);
-	glTranslated(-20, 0, 0);			    //1
+	glTranslated(-20, 0, 0);			        //1
 	glColor3fv(LightColor[(CI + 0) % 3]);
 	glutSolidSphere(1, 1000, 1000);
 	glTranslated(5, 0, 0);					//2
